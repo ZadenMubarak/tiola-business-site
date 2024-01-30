@@ -1,10 +1,9 @@
 import React from 'react';
 import IMG1 from '../../assets/WAGGARRARI.png';
 import IMG2 from '../../assets/ricardian AI.png';
-import IMG3 from '../../assets/shelter.png';
+import IMG3 from '../../assets/guardRisk.png';
 import IMG4 from '../../assets/tiola-video.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG5 from '../../assets/infraDAO.png';
 
 import './portfolio.css';
 
@@ -41,34 +40,25 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: 'Shelter',
+      title: 'GuardRIsk',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
-      technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
-      github: 'https://github.com/Meri-MG/shelter',
+        'A Desktop insurance application that uses the blockchain for storage and payments.',
+      technologies: 'React | CSS',
+      link: 'https://guard-risk.vercel.app/',
+      github: 'https://github.com/IKalonji/GuardRisk',
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'Infra DAO',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
+        'A Blockchain based Decentralized Autonomous Organization, that allows for crowdfunding, infrastructure projects',
       technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/Meri-MG/Unilab-world-news',
+      link: 'https://infra-dao.vercel.app/',
+      github: 'https://github.com/IKalonji/InfraDAO',
     },
-    {
-      id: 6,
-      title: 'Math Resource',
-      img: IMG6,
-      description:
-        'Real-world group project which is still in progress and will provide educational platform for future young developers',
-      technologies: 'JavaScript | Scss | Python',
-      link: 'https://lukinoo.github.io/math-resource/',
-      github: 'https://github.com/lukinoo/math-resource',
-    },
+    
   ];
 
   return (
