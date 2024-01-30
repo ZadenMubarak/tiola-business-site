@@ -1,8 +1,8 @@
 import React from 'react';
-import IMG1 from '../../assets/alc.png';
-import IMG2 from '../../assets/todo.png';
+import IMG1 from '../../assets/WAGGARRARI.png';
+import IMG2 from '../../assets/ricardian AI.png';
 import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
+import IMG4 from '../../assets/tiola-video.png';
 import IMG5 from '../../assets/news.png';
 import IMG6 from '../../assets/math.png';
 
@@ -22,22 +22,22 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: 'FakeStore',
+      title: 'Tiola Videos sharing platform',
       img: IMG4,
       description:
-        'FakeStore app that provides information about available products and their details',
+        'A desktop only Youtube like app built on the blockchain for viewing shard videos, the app is still in',
       technologies: 'React | Redux',
-      link: 'https://fakestore-metrics.netlify.app/',
-      github: 'https://github.com/Meri-MG/Fakestore---react',
+      link: 'https://tiola-video.vercel.app/',
+      github: 'https://github.com/ZadenMubarak/tiola-video',
     },
     {
       id: 3,
-      title: 'To-Do App',
+      title: 'Ricardian AI',
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
       technologies: 'JavaScript | Webpack',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
-      github: 'https://github.com/Meri-MG/To-Do-List',
+      link: 'https://riccardian-ai.vercel.app/',
+      github: 'https://github.com/IKalonji/RiccardianAI',
     },
     {
       id: 4,
