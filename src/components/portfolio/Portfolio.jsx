@@ -12,13 +12,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: 'Adventist Learning Center',
+      title: 'WAGGARRARI',
       img: IMG1,
       description:
-        'Adventist Learning Center provides quality education to Syrian and Kurdish Refugees living in Beirut, Lebanon. This simple website was built to reach a bigger audience and ease the process of gathering donations for the ALC students.',
-      technologies: 'Ruby on Rails | SCSS',
-      link: 'https://adventistlearningcenter-257375ab1970.herokuapp.com/',
-      github: 'https://github.com/Meri-MG/school',
+        'New crypto meme coin',
+      technologies: 'react | css',
+      link: 'https://waggarrari.vercel.app/',
+      github: 'https://github.com/ZadenMubarak/waggarrari',
     },
     {
       id: 2,
