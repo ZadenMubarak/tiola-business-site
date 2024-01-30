@@ -28,7 +28,7 @@ const Footer = () => {
       <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><FaAngellist /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; ET {getYear()}. All rights reserved.</small>
+        <small>&copy; Tiola {getYear()}. All rights reserved.</small>
       </div>
     </footer>
   )
