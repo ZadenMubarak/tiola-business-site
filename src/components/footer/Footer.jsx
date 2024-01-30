@@ -13,7 +13,7 @@ const Footer = () => {
   
   return (
     <footer>
-      <a href="#home" className="footer__logo">Meri-MG</a>
+      <a href="#home" className="footer__logo">Zaden Mubarak Ngobeni</a>
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -23,9 +23,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href="https://www.linkedin.com/in/meri-gogichashvili/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
-      <a href="https://github.com/Meri-MG" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="https://angel.co/u/meri-gogichashvili" target="_blank" rel="noreferrer" ><FaAngellist /></a>
+      <a href="" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
+      <a href="https://github.com/ZadenMubarak" target="_blank" rel="noreferrer" ><FaGithub /></a>
+      <a href="" target="_blank" rel="noreferrer" ><FaAngellist /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; Tiola {getYear()}. All rights reserved.</small>
