@@ -1,4 +1,5 @@
 import React from 'react';
+import IMG0 from '../../assets/stream_inherrit.png'
 import IMG1 from '../../assets/WAGGARRARI.png';
 import IMG2 from '../../assets/ricardian AI.png';
 import IMG3 from '../../assets/guardRisk.png';
@@ -9,6 +10,16 @@ import './portfolio.css';
 
 const Portfolio = () => {
   const soloProjects = [
+    {
+      id: 0,
+      title: 'Stream -Inherrit',
+      img: IMG0,
+      description:
+        'A legacy planning platform that empowers users to securely transmit assets to their loved ones over time, utilizing the reliability of XRP.',
+      technologies: 'react | css | XRP',
+      link: 'https://stream-inheritance.vercel.app/',
+      github: 'https://github.com/ZadenMubarak/stream-inheritance',
+    },
     {
       id: 1,
       title: 'WAGGARRARI',
