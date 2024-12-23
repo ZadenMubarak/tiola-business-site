@@ -20,6 +20,7 @@ const Portfolio = () => {
       link: 'https://stream-inheritance.vercel.app/',
       github: 'https://github.com/ZadenMubarak/stream-inheritance',
     },
+
     {
       id: 1,
       title: 'WAGGARRARI',
@@ -30,6 +31,7 @@ const Portfolio = () => {
       link: 'https://waggarrari.vercel.app/',
       github: 'https://github.com/ZadenMubarak/waggarrari',
     },
+    
     {
       id: 2,
       title: 'Tiola Videos sharing platform',

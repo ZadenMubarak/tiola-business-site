@@ -23,9 +23,9 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href="" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
+      <a href="https://www.linkedin.com/in/zaden-kalonji-55b020329/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/ZadenMubarak" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="" target="_blank" rel="noreferrer" ><FaAngellist /></a>
+      {/* <a href="" target="_blank" rel="noreferrer" ><FaAngellist /></a> */}
       </div>
       <div className="footer__copyright">
         <small>&copy; Tiola {getYear()}. All rights reserved.</small>
