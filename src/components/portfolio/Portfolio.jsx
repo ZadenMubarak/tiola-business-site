@@ -47,7 +47,7 @@ const Portfolio = () => {
       title: 'Ricardian AI',
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'JavaScript | Webpack',
+      technologies: 'React | NodeJS | REST API',
       link: 'https://riccardian-ai.vercel.app/',
       github: 'https://github.com/IKalonji/RiccardianAI',
     },
