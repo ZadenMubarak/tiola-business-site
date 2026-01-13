@@ -6,6 +6,10 @@ import IMG3 from '../../assets/guardRisk.png';
 import IMG4 from '../../assets/tiola-video.png';
 import IMG5 from '../../assets/infraDAO.png';
 
+import block from '../../assets/blocktrade.png';
+import auto from '../../assets/autoexchange.png';
+import rapid from '../../assets/rapid-oracle.png';
+
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -13,105 +17,48 @@ const Portfolio = () => {
     // 🔥 FEATURED / PRODUCTION-GRADE PROJECTS
     {
       id: 0,
-      title: 'AI Financial Advisor',
+      title: 'Auto Exchange',
       type: 'featured',
-      img: IMG2,
+      img: auto,
       role: 'Backend / AI Engineer',
       description:
-        'An AI-powered financial advisory system designed to generate actionable insights and assist users with informed financial decisions.',
+        'Car marketplace with AI integration to assist users in finding optimal vehicle options based on preferences and budget.',
       highlights: [
-        'Designed REST APIs and AI inference workflow',
-        'Focused on explainability and real-world financial use cases',
-        'Built modular architecture for future scalability',
+        'Developing AI algorithms for personalized car recommendations',
       ],
-      technologies: 'Python | Flask | AI | REST',
-      link: '#',
-      github: '#',
+      technologies: 'React | TypeScript | Spring Boot ',
+      link: 'https://github.com/kembosean7/AutoExchange',
+      github: 'https://github.com/kembosean7/AutoExchange',
     },
     {
       id: 1,
-      title: 'Blockchain Chronicles',
+      title: 'Blocktrade',
       type: 'featured',
-      img: IMG1,
-      role: 'Backend Engineer',
+      img: block,
+      role: 'Full-Stack Developer',
       description:
-        'An educational blockchain project series demonstrating core blockchain concepts through practical, incremental implementations.',
+        'A platform that introduces the everyday person to web3 by simply tokenizing Stock options on the blockchain.',
       highlights: [
-        'Implemented blockchain data structures from scratch',
-        'Explored hashing, immutability, and consensus basics',
-        'Documented progress publicly to demonstrate technical growth',
+        ''
       ],
-      technologies: 'Java | Spring Boot | Blockchain',
-      link: '#',
-      github: '#',
+      technologies: 'React | TypeScript | Solidity',
+      link: 'https://github.com/ZadenMubarak/decentralized-equities',
+      github: 'https://github.com/ZadenMubarak/decentralized-equities',
     },
     {
       id: 2,
-      title: 'Smart Contract Generator',
+      title: 'Rappid Oracle',
       type: 'featured',
-      img: IMG4,
+      img: rapid,
       role: 'Full-Stack Developer',
       description:
-        'A system that transforms legal agreements into deployable smart contracts, bridging legal logic and blockchain execution.',
+        'A marketplace to create and interact with chainlink functions',
       highlights: [
-        'Mapped legal clauses to programmable contract logic',
-        'Focused on correctness and automation',
-        'Designed with real-world business use cases in mind',
+        'Integrated Chainlink functions for decentralized data retrieval',
       ],
-      technologies: 'Solidity | JavaScript | Web3',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 3,
-      title: 'Axora Web Platform',
-      type: 'featured',
-      img: IMG0,
-      role: 'Frontend Engineer',
-      description:
-        'A business-facing web platform focused on clarity, performance, and conversion-driven design.',
-      highlights: [
-        'Built reusable React components',
-        'Optimized UI for responsiveness and usability',
-        'Deployed and maintained production builds',
-      ],
-      technologies: 'React | CSS | Vercel',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 4,
-      title: 'Event Landing System',
-      type: 'featured',
-      img: IMG3,
-      role: 'Frontend Engineer',
-      description:
-        'A high-conversion landing page system built to support event marketing and online campaigns.',
-      highlights: [
-        'Implemented conversion-focused layouts',
-        'Emphasized UX clarity and responsiveness',
-        'Designed for fast iteration and reuse',
-      ],
-      technologies: 'React | Tailwind | UX',
-      link: '#',
-      github: '#',
-    },
-    {
-      id: 5,
-      title: 'Developer Task Hub',
-      type: 'featured',
-      img: IMG5,
-      role: 'Full-Stack Developer',
-      description:
-        'A lightweight productivity tool enabling developers to organize and track tasks efficiently.',
-      highlights: [
-        'Designed simple but effective task workflows',
-        'Focused on performance and maintainability',
-        'Built with extensibility in mind',
-      ],
-      technologies: 'React | Node.js',
-      link: '#',
-      github: '#',
+      technologies: 'React | Solidity | NodeJs | Web3',
+      link: 'https://rapid-oracle.vercel.app/',
+      github: 'https://github.com/IKalonji/rapid-oracle',
     },
 
     // 🧪 OTHER / EXPERIMENTAL & HACKATHON PROJECTS
@@ -229,10 +176,10 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Featured Projects</h2>
+      <h2>Favourite Projects</h2>
 
 
-      {/* <div className="container portfolio__container">
+      <div className="container portfolio__container">
         {featuredProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
@@ -264,7 +211,7 @@ const Portfolio = () => {
             </div>
           </article>
         ))}
-      </div> */}
+      </div>
 
       <h2 style={{ marginTop: '4rem' }}>Other Projects</h2>
 
